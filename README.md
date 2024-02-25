@@ -1,5 +1,11 @@
 # [go back to Overview](https://github.com/c4arl0s#ios-apps-using-objective-cuikit)
 
+In order to update an existing Git submodule execute: (You might need permissions from Owner to get submodules)
+
+```console
+git submodule update --remote --merge
+```
+
 # [Media Playback - Objective-C](https://github.com/c4arl0s/27MediaPlaybackAndBackgroundExecutionObjectiveCMRC#27-media-playback-and-background-execution---objectivec---mrc)
 
 MediaPlayer will have a very simple interface so that you can concentrate on the guts of media playback. The application will display two buttons that will initiate different types of audio playback, and it will also display a movie.
